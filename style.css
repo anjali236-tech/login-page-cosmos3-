@@ -1,4 +1,4 @@
-/* ===== Page Layout ===== */
+
 body {
     
     
@@ -33,7 +33,7 @@ body {
     align-items: center;
 }
 
-/* ===== Login Box ===== */
+
 .login-box {
     width: 350px;
     padding: 35px;
@@ -51,7 +51,7 @@ body {
     font-weight: 600;
 }
 
-/* ===== Input Fields ===== */
+
 .input-box {
     text-align: left;
     margin-bottom: 20px;
@@ -72,7 +72,7 @@ body {
     font-size: 1rem;
 }
 
-/* ===== Remember Me ===== */
+
 .remember {
     display: flex;
     align-items: center;
@@ -81,7 +81,7 @@ body {
     font-size: 0.9rem;
 }
 
-/* ===== Login Button ===== */
+
 .btn {
     width: 100%;
     padding: 10px;
@@ -99,7 +99,7 @@ body {
     background: #4470e1;
 }
 
-/* ===== Google Button ===== */
+
 .google-btn {
     width: 100%;
     padding: 10px;
@@ -124,7 +124,7 @@ body {
     background: #77b4ea;
 }
 
-/* ===== Signup Link ===== */
+
 .signup {
     margin-top: 10px;
     font-size: 0.9rem;
@@ -137,3 +137,4 @@ body {
     font-weight: bold;
     text-decoration: underline;
 }
+
