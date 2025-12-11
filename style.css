@@ -1,0 +1,139 @@
+/* ===== Page Layout ===== */
+body {
+    
+    
+    margin: 0;
+    padding: 0;
+    background-image: url("y.jpg");  
+    background-size: cover;                   
+    background-position: center;             
+    background-repeat: no-repeat
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  /*  margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    font-family: "Poppins", sans-serif;
+}*/
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ===== Login Box ===== */
+.login-box {
+    width: 350px;
+    padding: 35px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.3);
+    color: #fffefe;
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+/* ===== Input Fields ===== */
+.input-box {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.input-box label {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1rem;
+}
+
+/* ===== Remember Me ===== */
+.remember {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+/* ===== Login Button ===== */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #93cbf0;
+    color: #0d0000;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #4470e1;
+}
+
+/* ===== Google Button ===== */
+.google-btn {
+    width: 100%;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #000;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.google-btn img {
+    width: 20px;
+}
+
+.google-btn:hover {
+    background: #77b4ea;
+}
+
+/* ===== Signup Link ===== */
+.signup {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #021001;
+
+}
+
+.signup a {
+    color: #021100;
+    font-weight: bold;
+    text-decoration: underline;
+}
